@@ -9,6 +9,13 @@ using namespace std;
 
 #include "tokens.cpp"
 
+static void print_compiler_version()
+{
+    cout << ">>> Compiler is G++ " << __VERSION__ << '\n';
+    cout << ">>> Standard C++ " << __cplusplus << '\n';
+    cout << ">>>\n";
+}
+
 static int line_size(const string & line)
 {
     int size = 0;
@@ -39,7 +46,7 @@ static void print_program_size(const vector<string> & lines)
         total_size += size;
     }
     cout << "-----|" << string(width, '-') << endl;
-    cout << setw(3) << setfill(' ') << total_size 
+    cout << setw(3) << setfill(' ') << total_size
          << " == countdown.cpp.size" << endl;
     cout << endl;
 }
@@ -118,14 +125,15 @@ static void print_token_bonuses(const vector<string> & lines)
 
 int main(int, const char * argv[])
 {
+    print_compiler_version();
     vector<string> lines = read_lines(argv[1]);
     int program_size = lines_size(lines);
     int used_token_bonus = tokens_size(lines);
     int completion_bonus = missing_tokens(lines) ? 0 : 50;
 
     cout << ">>> Score = -countdown.cpp.size + 3*used_tokens.size + completion.bonus" << endl
-         << ">>>       = " << setw(3) << setfill(' ') << -program_size << " + " 
-                              << "3*" << used_token_bonus << " + " 
+         << ">>>       = " << setw(3) << setfill(' ') << -program_size << " + "
+                              << "3*" << used_token_bonus << " + "
                               << completion_bonus << endl
          << ">>>       = " << (-program_size + (3*used_token_bonus) + completion_bonus) << endl;
 
