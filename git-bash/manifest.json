@@ -1,0 +1,12 @@
+
+{
+  "visible_filenames": [
+    "cyber-dojo.sh"
+  ],
+
+  "display_name": "git, bash",
+
+  "image_name": "cyberdojofoundation/git_bash",
+
+  "runner_choice": "stateful"
+}
