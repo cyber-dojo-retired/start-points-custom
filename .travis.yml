@@ -1,6 +1,10 @@
 sudo: required
 services: docker
-language: generic
+language: node_js
+
+before_script:
+    - curl -O https://raw.githubusercontent.com/cyber-dojo/cyber-dojo/master/shared/trigger-build.sh
+    - chmod +x trigger-build.sh
 
 script:
     - curl -O https://raw.githubusercontent.com/cyber-dojo/commander/master/cyber-dojo
@@ -8,3 +12,4 @@ script:
     - my_url=https://github.com/cyber-dojo/start-points-custom.git
     - ./cyber-dojo start-point create custom --git=${my_url}
     - ./cyber-dojo start-point ls | grep custom
+    - ./trigger-build.sh cyber-dojo/web
