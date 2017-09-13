@@ -10,5 +10,7 @@
 
   "display_name": "Tennis refactoring, Python unitttest",
 
-  "image_name": "cyberdojofoundation/python_unittest"
+  "image_name": "cyberdojofoundation/python_unittest",
+
+  "runner_choice":"stateless"
 }

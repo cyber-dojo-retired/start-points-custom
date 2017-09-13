@@ -12,5 +12,7 @@
 
   "display_name": "Tennis refactoring, Ruby Test::Unit",
 
-  "image_name": "cyberdojofoundation/ruby_test_unit"
+  "image_name": "cyberdojofoundation/ruby_test_unit",
+
+  "runner_choice":"stateless"
 }

@@ -10,5 +10,7 @@
 
   "display_name": "Yahtzee refactoring, Java JUnit",
 
-  "image_name": "cyberdojofoundation/java_junit"
+  "image_name": "cyberdojofoundation/java_junit",
+
+  "runner_choice":"stateless"
 }

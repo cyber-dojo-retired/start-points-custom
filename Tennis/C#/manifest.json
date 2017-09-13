@@ -13,5 +13,7 @@
 
   "display_name": "Tennis refactoring, C# NUnit",
 
-  "image_name": "cyberdojofoundation/csharp_nunit"
+  "image_name": "cyberdojofoundation/csharp_nunit",
+
+  "runner_choice":"stateless"
 }
