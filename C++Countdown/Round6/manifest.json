@@ -7,6 +7,7 @@
     "scorer.cpp",
     "tokens.cpp"
   ],
+  "highlight_filenames": ["countdown.cpp"],
   "runner_choice":"stateless",
   "image_name": "cyberdojofoundation/gpp_assert",
   "filename_extension": ".cpp",
