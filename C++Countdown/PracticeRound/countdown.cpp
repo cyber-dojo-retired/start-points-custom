@@ -1,5 +1,9 @@
-void m()
+class m
 {
-    try{}
-    catch(...){}
-}
+    int operator->()
+    {
+        try{}
+        catch(...){}
+        return 0;
+    }
+};
