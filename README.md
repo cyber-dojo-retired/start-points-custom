@@ -10,7 +10,7 @@
 The git repo for [cyber-dojo's](https://github.com/cyber-dojo/web)
 [setup a new practice session from a <em>custom</em> start point] choices.
 
-<img src="https://github.com/cyber-dojo/start-points-custom/blob/master/setup_custom_start_point.png" width="700px"/>
+<img src="https://github.com/cyber-dojo/start-points-custom/blob/master/setup_custom_practice.png" width="700px"/>
 
 You can specify and use an alternative custom start-point.
 
