@@ -8,7 +8,7 @@
 <img src="https://raw.githubusercontent.com/cyber-dojo/nginx/master/images/home_page_logo.png" alt="cyber-dojo yin/yang logo" width="50px" height="50px"/>
 
 The git repo for [cyber-dojo's](https://github.com/cyber-dojo/web)
-[setup a <em>custom</em> practice] choices.
+setup <em>custom</em> choices.
 
 <img src="https://github.com/cyber-dojo/start-points-custom/blob/master/setup_custom_practice.png" width="700px"/>
 
