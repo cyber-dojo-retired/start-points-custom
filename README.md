@@ -1,5 +1,6 @@
 
 [![Build Status](https://travis-ci.org/cyber-dojo/start-points-custom.svg?branch=master)](https://travis-ci.org/cyber-dojo/start-points-custom)
+[![CircleCI](https://circleci.com/gh/cyber-dojo/start-points-custom.svg?style=svg)](https://circleci.com/gh/cyber-dojo/start-points-custom)
 
 <img src="https://raw.githubusercontent.com/cyber-dojo/nginx/master/images/home_page_logo.png" alt="cyber-dojo yin/yang logo" width="50px" height="50px"/>
 
