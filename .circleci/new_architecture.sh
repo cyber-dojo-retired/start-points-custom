@@ -21,4 +21,4 @@ chmod +x ./${SCRIPT}
     --exercises \
       https://github.com/cyber-dojo/start-points-exercises.git  \
     --languages \
-      https://github.com/cyber-dojo/start-points-languages.git  \
+      https://github.com/cyber-dojo-languages/csharp-nunit
